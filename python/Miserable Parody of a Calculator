@@ -1,0 +1,5 @@
+# Create a function that will handle simple math expressions. The input is an expression in the form of a string.
+
+def calculator(txt):
+	result = eval(txt)
+	return result
