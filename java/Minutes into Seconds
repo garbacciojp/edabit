@@ -1,0 +1,8 @@
+// Write a function that takes an integer minutes and converts it to seconds.
+
+public class Challenge {
+	public static int convert(int minutes) {
+		int seconds = minutes * 60;
+		return seconds;
+  }
+}
