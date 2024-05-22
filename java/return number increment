@@ -1,8 +1,23 @@
 // Create a function that takes a number as an argument, increments the number by +1 and returns the result.
 
+// Version 1
+
 public class Challenge {
 	public static int addition(int num) {
 		int numberIncrement = ++num;
 		return numberIncrement;
 	}
 }
+
+// Version 2
+
+/*
+
+public class Challenge {
+	public static int addition(int num) {
+		num++;
+		return num;
+	}
+}
+
+*/
