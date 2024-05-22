@@ -1,0 +1,9 @@
+// Given an object containing counts of both upvotes and downvotes, return what vote count should be displayed.
+// https://edabit.com/challenge/XJxu5LCnqN9K8SXm5
+
+public class Solution {
+	public static int getVoteCount(int upvotes,int downvotes) {
+		int netVotes = upvotes - downvotes;
+		return netVotes;
+	}
+}
